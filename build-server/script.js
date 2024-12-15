@@ -5,10 +5,10 @@ const { PutObjectCommand, S3Client } = require('@aws-sdk/client-s3')
 const mime = require('mime-type') // it tells us type of file by the help of pathname
 
 const s3Client = new S3Client({
-    region:'',
-    credentials:{
-        accessKeyId:'',
-        secretAccessKey:''
+    region: 'ap-south-1',
+    credentials: {
+        accessKeyId: process.env.ACCESS_KEY_ID,
+        secretAccessKey: process.env.SECRET_ACCESSKEY,
     }
 })
 
