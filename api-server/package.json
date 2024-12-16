@@ -41,6 +41,7 @@
     "http-errors": "^2.0.0",
     "iconv-lite": "^0.4.24",
     "inherits": "^2.0.4",
+    "ioredis": "^5.4.1",
     "ipaddr.js": "^1.9.1",
     "math-intrinsics": "^1.0.0",
     "media-typer": "^0.3.0",
@@ -70,6 +71,7 @@
     "side-channel-list": "^1.0.0",
     "side-channel-map": "^1.0.1",
     "side-channel-weakmap": "^1.0.2",
+    "socket.io": "^4.8.1",
     "statuses": "^2.0.1",
     "strnum": "^1.0.5",
     "toidentifier": "^1.0.1",
@@ -80,7 +82,6 @@
     "uuid": "^9.0.1",
     "vary": "^1.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
