@@ -41,4 +41,15 @@ This project contains the following services and directories:
    cd build-server
 docker build -t your-ecr-repository:latest .
 docker push your-ecr-repository:latest
+3. **Configure api-server:**
 
+Set up the api-server with required configurations such as TASK ARN and CLUSTER ARN.
+
+4. **Run Services:**
+
+Start the services by running the following commands in their respective directories:
+``` bash
+cd api-server
+node index.js
+cd ../s3-reverse-proxy
+node index.js
